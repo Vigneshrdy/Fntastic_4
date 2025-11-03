@@ -1,6 +1,8 @@
 "use client";
 import { useEffect, useState } from "react";
-import { supabase } from "../../utils/supabaseClient";
+import { supabase } from "../../../utils/supabaseClient";
+// import { supabase } from "@/utils/supabaseClient";
+
 
 export default function Dashboard() {
   const [habits, setHabits] = useState([]);
